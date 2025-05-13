@@ -27,7 +27,7 @@ export default function Navbar() {
           <Link href="/HERO_SEC_3" className="text-gray-700 hover:text-[#985aa0]">
             Third_Hero_page
           </Link>
-          <Link href="/login" className="text-gray-700 hover:text-[#985aa0]">
+          <Link href="/" className="text-gray-700 hover:text-[#985aa0]">
             Log In
           </Link>
           <Button className="bg-[#C026D3] hover:bg-[#985aa0] text-white rounded-full px-6">Start Now</Button>
@@ -42,14 +42,15 @@ export default function Navbar() {
       {/* Mobile Navigation */}
       {isMenuOpen && (
         <div className="md:hidden mt-4 flex flex-col space-y-4 py-4">
-          <Link href="/explore" className="text-gray-700 hover:text-[#985aa0]">
-            Explore
+          <Link href="/" className="text-gray-700 hover:text-[#985aa0]">
+            Home
           </Link>
-          <Link href="/solutions" className="text-gray-700 hover:text-[#985aa0]">
-            Solutions
+          <Link href="/HERO_SEC_2" className="text-gray-700 hover:text-[#985aa0]">
+                        Second_Hero_page
+
           </Link>
-          <Link href="/about" className="text-gray-700 hover:text-[#985aa0]">
-            About
+          <Link href="/HERO_SEC_3" className="text-gray-700 hover:text-[#985aa0]">
+            Third_Hero_page
           </Link>
           <Link href="/blog" className="text-gray-700 hover:text-[#985aa0]">
             Blog
