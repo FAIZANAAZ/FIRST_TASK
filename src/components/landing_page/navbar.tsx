@@ -52,10 +52,8 @@ export default function Navbar() {
           <Link href="/HERO_SEC_3" className="text-gray-700 hover:text-[#985aa0]">
             Third_Hero_page
           </Link>
-          <Link href="/blog" className="text-gray-700 hover:text-[#985aa0]">
-            Blog
-          </Link>
-          <Link href="/login" className="text-gray-700 hover:text-[#985aa0]">
+          
+          <Link href="/" className="text-gray-700 hover:text-[#985aa0]">
             Log In
           </Link>
           <Button className="bg-[#C026D3] hover:bg-[#985aa0] text-white rounded-full w-full">Start Now</Button>
