@@ -154,7 +154,7 @@ const Footer = () => {
             <Link href="/" className="font-bold text-xl text-gray-900">
               break<span className="text-purple-600">io</span>
             </Link>
-            <span className="text-gray-500 ml-2 text-sm">@ 2023 - All rights reserved</span>
+            <span className="text-gray-500 ml-2 text-sm">@By Faiza Naaz</span>
           </div>
           <div className="flex space-x-6">
             <Link href="#" className="text-gray-500 hover:text-gray-900 transition-colors">

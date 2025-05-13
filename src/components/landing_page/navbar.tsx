@@ -22,10 +22,10 @@ export default function Navbar() {
             HOME
           </Link>
           <Link href="/HERO_SEC_2" className="text-gray-700 hover:text-[#985aa0]">
-            Second_Hero_page
+            SecondHero
           </Link>
           <Link href="/HERO_SEC_3" className="text-gray-700 hover:text-[#985aa0]">
-            Third_Hero_page
+            ThirdHero
           </Link>
           <Link href="/" className="text-gray-700 hover:text-[#985aa0]">
             Log In
@@ -46,11 +46,11 @@ export default function Navbar() {
             Home
           </Link>
           <Link href="/HERO_SEC_2" className="text-gray-700 hover:text-[#985aa0]">
-                        Second_Hero_page
+                        SecondHero
 
           </Link>
           <Link href="/HERO_SEC_3" className="text-gray-700 hover:text-[#985aa0]">
-            Third_Hero_page
+            ThirdHero
           </Link>
           
           <Link href="/" className="text-gray-700 hover:text-[#985aa0]">
